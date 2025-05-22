@@ -1,7 +1,6 @@
-/* src/components/styles/hero.scss */
+
 
 .hero {
-    background-image: url('/caminho/da/sua/imagem.jpg'); // Troque para seu caminho real
     background-size: cover;
     background-position: center;
     padding: 6rem 2rem;
@@ -10,9 +9,9 @@
   }
   
   .content {
-    max-width: 800px;
+    max-width: 1000px;
     margin: 0 auto;
-    background-color: rgba(0, 0, 0, 0.5); // um fundo escuro com transparência
+    background-color: rgba(0, 0, 0, 0.5);
     padding: 2rem;
     border-radius: 10px;
   }

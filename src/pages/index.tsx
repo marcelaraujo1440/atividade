@@ -1,11 +1,10 @@
 import React from 'react'
 import Layout from '../containers/Layout'
 import Hero from '../components/Hero'
-import '../components/styles/navbar.scss'
-import '../components/styles/hero.scss'
+import '../components/styles/Main.scss'
 
 
-const Index: React.FC = () => {
+const Home: React.FC = () => {
 
   return (
     <Layout>
@@ -18,4 +17,4 @@ const Index: React.FC = () => {
   )
 }
     
-export default Index
+export default Home

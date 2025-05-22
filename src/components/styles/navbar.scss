@@ -1,14 +1,12 @@
-/* src/components/styles/navbar.scss */
 *{
   margin: 0;
 }
 .navbar {
-  background-color: #1e1e2f;
+  background-color:rgba(0, 0, 0, 0.5);
   padding: 1rem 2rem;
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  margin: 0 auto;
+
 }
 
 .menu {
@@ -22,7 +20,7 @@
   text-decoration: none;
   font-weight: bold;
   font-size: 2.5rem;
-
+  margin: 0 auto;
 }
 
 .menu li a:hover {
